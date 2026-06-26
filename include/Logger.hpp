@@ -1,0 +1,11 @@
+//
+// Created by shahk on 26-06-2026.
+//
+
+#ifndef CONCURRENTLOGGER_LOGGER_HPP
+#define CONCURRENTLOGGER_LOGGER_HPP
+
+#pragma once
+
+
+#endif //CONCURRENTLOGGER_LOGGER_HPP
