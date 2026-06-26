@@ -16,7 +16,7 @@ public:
     BlockingQueue();
     ~BlockingQueue();
 
-    void push()(const T& item);
+    void push(const T& item);
     void push(T&& item);
 
     bool pop(T& item);
@@ -32,6 +32,6 @@ private:
     bool _shutdown;
 };
 
-#include "BlockingQueue.hpp"
+#include "BlockingQueue.tpp"
 
 #endif //CONCURRENTLOGGER_BLOCKINGQUEUE_HPP

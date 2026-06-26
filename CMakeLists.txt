@@ -3,7 +3,7 @@ project(ConcurrentLogger)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ConcurrentLogger main.cpp
+add_executable(ConcurrentLogger
         include/LogMessage.hpp
         include/Logger.hpp
         include/BlockingQueue.hpp
@@ -12,4 +12,5 @@ add_executable(ConcurrentLogger main.cpp
         include/BlockingQueue.tpp
         include/LogFormatter.hpp
         src/LogFormatter.cpp
-        src/Logger.cpp)
+        src/Logger.cpp
+        examples/main.cpp)

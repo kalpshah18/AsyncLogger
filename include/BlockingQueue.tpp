@@ -40,10 +40,10 @@ template<typename T> bool BlockingQueue<T>::pop(T& item) {
     std::unique_lock<std::mutex> lock(_mutex);
 
     _cond.wait(lock, [this] {
-        return shutdown_ || !queue_.empty();
+        return _shutdown || !_queue.empty();
     });
 
-    if (shutdown_ && _queue.empty()) return false;
+    if (_shutdown && _queue.empty()) return false;
     item = std::move(_queue.front());
     _queue.pop();
     return true;

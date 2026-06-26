@@ -39,7 +39,7 @@ std::string LogFormatter::levelToString(LogLevel level)
         case LogLevel::Info:
             return "INFO";
 
-        case LogLevel::Warn:
+        case LogLevel::Warning:
             return "WARN";
 
         case LogLevel::Error:

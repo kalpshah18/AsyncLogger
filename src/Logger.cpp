@@ -73,7 +73,7 @@ void Logger::warn(
     const char* file,
     int line)
 {
-    log(LogLevel::Warn, message, file, line);
+    log(LogLevel::Warning, message, file, line);
 }
 
 void Logger::error(
