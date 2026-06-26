@@ -9,4 +9,7 @@ add_executable(ConcurrentLogger main.cpp
         include/BlockingQueue.hpp
         include/BlockingQueue.hpp
         include/BlockingQueue.hpp
-        include/BlockingQueue.tpp)
+        include/BlockingQueue.tpp
+        include/LogFormatter.hpp
+        src/LogFormatter.cpp
+        src/Logger.cpp)
