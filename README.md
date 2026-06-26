@@ -122,6 +122,18 @@ without additional user code.
 
 ---
 
+## Benchmark Results
+
+For 128 Threads with 100000 Logs per thread, the System provides a throughput of 1.7 Million Logs/second.
+```
+Threads: 128
+Logs: 12800000
+Time: 7.52046 sec
+Throughput: 1.70202e+06 logs/sec
+```
+
+---
+
 ## Building
 
 Clone the repository

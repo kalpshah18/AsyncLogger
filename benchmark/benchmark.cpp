@@ -11,7 +11,7 @@
 
 int main()
 {
-    constexpr int THREADS = 16;
+    constexpr int THREADS = 128;
     constexpr int LOGS = 100000;
 
     auto start = std::chrono::high_resolution_clock::now();
